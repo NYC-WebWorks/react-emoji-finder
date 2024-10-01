@@ -3,6 +3,7 @@ import Header from './Header.js';
 import Search from './Search.js';
 import Results from './Results.js';
 import data from '../json/data.json';
+import ScrollToTopButton from './ScrollToTopButton';
 import './Container.css';
 
 function Container() {
@@ -58,6 +59,7 @@ function Container() {
       ) : (
         <Results emojiFiltered={searchQuery === '' ? emojiData : newEmojiData} />
       )}
+      <ScrollToTopButton />
     </div>
   );
 }
