@@ -1,7 +1,7 @@
 .item{
   position: relative;
-  width: 180px;
-  height: 180px;
+  width: 100px;
+  height: 100px;
   background: var(--card-background-color);
   margin: 15px;
   padding: 20px;
